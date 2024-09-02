@@ -1,0 +1,120 @@
+html,
+body,
+#root {
+  text-decoration: none;
+  box-sizing: content-box;
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #929292;
+  color: #040403;
+}
+
+.header {
+  min-width: 100vw;
+  margin: 0;
+  justify-content: center;
+  box-sizing: content-box;
+  min-width: 100vw;
+  background-color: #7d7d7d;
+}
+
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #131212;
+}
+
+p {
+  margin: 0;
+  font-family: 'Ovo', serif;
+  color: #f1efeb;
+}
+
+#profile {
+  box-sizing: content-box;
+  margin: 0;
+  border-radius: 10px;
+  padding: 1em;
+  border-style: ridge;
+  border-color: #7c0c0c;
+  background-color: #010101;
+  box-shadow: 0 5px 5px #5c0202;
+}
+
+.uk-tile {
+  margin: 0;
+  padding: 5px;
+  color: #050505;
+  border-style: ridge ridge;
+  border-color: #ecf714;
+  border-radius: 30px;
+  background-color: #040404;
+  flex-shrink: inherit;
+  box-sizing: content-box;
+}
+
+.uk-tile img {
+  color: #050505;
+  border-style: ridge ridge;
+  border-color: #030303;
+  border-radius: 30px;
+  flex-shrink: inherit;
+  box-sizing: content-box;
+}
+
+.uk-tile-footer {
+  color: #e70505;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.uk-container {
+  margin: 0;
+  min-width: 100vw;
+  flex-shrink: inherit;
+  box-sizing: content-box;
+  background-color: #ecf714;
+}
+
+nav .uk-icon {
+  border-radius: 10px;
+  padding: 1em;
+  color: #f30202;
+  border-style: ridge;
+  border-color: #060605;
+  background-color: #1f1f1e;
+  box-shadow: 3px #440402 #f1efeb;
+}
+
+.uk-input {
+  font-family: 'Ovo', serif;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  color: #929292;
+  border-style: ridge;
+  border-color: #060606;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.uk-legend {
+  font-family: 'Ovo', serif;
+}
+
+span .uk-badge {
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Ovo', serif;
+  color: #f30202;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.footer {
+  margin: 0;
+  min-width: 100vw;
+  background-color: #929292;;
+}
