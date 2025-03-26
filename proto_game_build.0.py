@@ -34,7 +34,6 @@ def main ():
             print()
             strUserSelection = input("Selection:  ")
             print()
-            clear_screen()
             if strUserSelection.upper() == "T":
                 userShot = random.randint(1,5)
                 computersShot = random.randint(1,5)
@@ -47,10 +46,6 @@ def main ():
                 else:
                     totalShotsFired = totalShotsFired + 1
                     userScore = userScore + 100
-                    print()
-                    print()
-                    print("Empty Chamber.")
-                    print()
                     if computersShot == bullet:
                         print("Computer Lost!")
                         print()             
@@ -60,7 +55,6 @@ def main ():
                         strUserSelection = input( "(Y) for Yes or (N) for No :      ")
                         print()
                         print()
-                        clear_screen()
                         if strUserSelection.upper() == ("Y"):
                             totalShotsFired = 0
                             userScore = userScore + 100
@@ -82,7 +76,6 @@ def main ():
                     if strUserSelection.upper() == ("Y"):
                         totalShotsFired = 0
                         userScore = userScore + 100
-                        clear_screen()
                         print(dash)
                     else:
                         strUserSelection = "X"  
@@ -91,17 +84,15 @@ def main ():
                     print("Choose Again.")
                     print()
                     print()
-                    print()
-                    clear_screen()              
+                    print()             
             else: 
                 strUserSelection = "X"
                 print()
                 print("Death comes for all.......")
                 print()
         finally:
-            if totalShotsFired == 5 or userShot == bullet:
-                print("You Have Lost")
-                print()
+            if totalShotsFired == 5:
+                print("Gun is Dry , Congrats you survived!")
                 print()            
                 print("New game ?")
                 print()
@@ -112,7 +103,6 @@ def main ():
                 if strUserSelection.upper() == ("Y"):
                         totalShotsFired = 0
                         userScore = 0
-                        clear_screen()
                 else:
                     strUserSelection = "X"
             else:
