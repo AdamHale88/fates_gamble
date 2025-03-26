@@ -1,5 +1,4 @@
 import math_functions
-import os
 def main ():
     dash = ("_")*40
     playerSelection = ""
